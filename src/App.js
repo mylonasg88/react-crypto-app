@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+
+import Convertor from "./views/Convertor";
 
 function App() {
+    console.log('App');
   return (
     <div className="App">
       <header className="App-header">
@@ -16,9 +19,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React with George
         </a>
       </header>
+      <Convertor />
     </div>
   );
 }
