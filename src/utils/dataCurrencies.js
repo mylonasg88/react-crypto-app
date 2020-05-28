@@ -7,6 +7,8 @@ export const dataCurrenciesObj = {
     rounding: 0,
     code: "USD",
     name_plural: "US dollars",
+    flag: "US",
+    country: "United States"
   },
   CAD: {
     symbol: "CA$",
@@ -16,6 +18,8 @@ export const dataCurrenciesObj = {
     rounding: 0,
     code: "CAD",
     name_plural: "Canadian dollars",
+    flag: "CA",
+    country: "Canada"
   },
   EUR: {
     symbol: "€",
@@ -25,6 +29,8 @@ export const dataCurrenciesObj = {
     rounding: 0,
     code: "EUR",
     name_plural: "euros",
+    flag: "EU",
+    country: "EU"
   },
   AED: {
     symbol: "AED",
@@ -33,7 +39,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "AED",
-    name_plural: "UAE dirhams",
+    name_plural: "UAE dirhams"
   },
   AFN: {
     symbol: "Af",
@@ -42,7 +48,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "AFN",
-    name_plural: "Afghan Afghanis",
+    name_plural: "Afghan Afghanis"
   },
   ALL: {
     symbol: "ALL",
@@ -51,7 +57,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "ALL",
-    name_plural: "Albanian lekë",
+    name_plural: "Albanian lekë"
   },
   AMD: {
     symbol: "AMD",
@@ -60,7 +66,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "AMD",
-    name_plural: "Armenian drams",
+    name_plural: "Armenian drams"
   },
   ARS: {
     symbol: "AR$",
@@ -69,7 +75,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "ARS",
-    name_plural: "Argentine pesos",
+    name_plural: "Argentine pesos"
   },
   AUD: {
     symbol: "AU$",
@@ -78,7 +84,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "AUD",
-    name_plural: "Australian dollars",
+    name_plural: "Australian dollars"
   },
   AZN: {
     symbol: "man.",
@@ -87,7 +93,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "AZN",
-    name_plural: "Azerbaijani manats",
+    name_plural: "Azerbaijani manats"
   },
   BAM: {
     symbol: "KM",
@@ -96,7 +102,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BAM",
-    name_plural: "Bosnia-Herzegovina convertible marks",
+    name_plural: "Bosnia-Herzegovina convertible marks"
   },
   BDT: {
     symbol: "Tk",
@@ -105,7 +111,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BDT",
-    name_plural: "Bangladeshi takas",
+    name_plural: "Bangladeshi takas"
   },
   BGN: {
     symbol: "BGN",
@@ -114,7 +120,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BGN",
-    name_plural: "Bulgarian leva",
+    name_plural: "Bulgarian leva"
   },
   BHD: {
     symbol: "BD",
@@ -123,7 +129,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 3,
     rounding: 0,
     code: "BHD",
-    name_plural: "Bahraini dinars",
+    name_plural: "Bahraini dinars"
   },
   BIF: {
     symbol: "FBu",
@@ -132,7 +138,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "BIF",
-    name_plural: "Burundian francs",
+    name_plural: "Burundian francs"
   },
   BND: {
     symbol: "BN$",
@@ -141,7 +147,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BND",
-    name_plural: "Brunei dollars",
+    name_plural: "Brunei dollars"
   },
   BOB: {
     symbol: "Bs",
@@ -150,7 +156,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BOB",
-    name_plural: "Bolivian bolivianos",
+    name_plural: "Bolivian bolivianos"
   },
   BRL: {
     symbol: "R$",
@@ -159,7 +165,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BRL",
-    name_plural: "Brazilian reals",
+    name_plural: "Brazilian reals"
   },
   BWP: {
     symbol: "BWP",
@@ -168,7 +174,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BWP",
-    name_plural: "Botswanan pulas",
+    name_plural: "Botswanan pulas"
   },
   BYN: {
     symbol: "Br",
@@ -177,7 +183,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BYN",
-    name_plural: "Belarusian rubles",
+    name_plural: "Belarusian rubles"
   },
   BZD: {
     symbol: "BZ$",
@@ -186,7 +192,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "BZD",
-    name_plural: "Belize dollars",
+    name_plural: "Belize dollars"
   },
   CDF: {
     symbol: "CDF",
@@ -195,7 +201,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "CDF",
-    name_plural: "Congolese francs",
+    name_plural: "Congolese francs"
   },
   CHF: {
     symbol: "CHF",
@@ -204,7 +210,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0.05,
     code: "CHF",
-    name_plural: "Swiss francs",
+    name_plural: "Swiss francs"
   },
   CLP: {
     symbol: "CL$",
@@ -213,7 +219,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "CLP",
-    name_plural: "Chilean pesos",
+    name_plural: "Chilean pesos"
   },
   CNY: {
     symbol: "CN¥",
@@ -222,7 +228,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "CNY",
-    name_plural: "Chinese yuan",
+    name_plural: "Chinese yuan"
   },
   COP: {
     symbol: "CO$",
@@ -231,7 +237,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "COP",
-    name_plural: "Colombian pesos",
+    name_plural: "Colombian pesos"
   },
   CRC: {
     symbol: "₡",
@@ -240,7 +246,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "CRC",
-    name_plural: "Costa Rican colóns",
+    name_plural: "Costa Rican colóns"
   },
   CVE: {
     symbol: "CV$",
@@ -249,7 +255,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "CVE",
-    name_plural: "Cape Verdean escudos",
+    name_plural: "Cape Verdean escudos"
   },
   CZK: {
     symbol: "Kč",
@@ -258,7 +264,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "CZK",
-    name_plural: "Czech Republic korunas",
+    name_plural: "Czech Republic korunas"
   },
   DJF: {
     symbol: "Fdj",
@@ -267,7 +273,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "DJF",
-    name_plural: "Djiboutian francs",
+    name_plural: "Djiboutian francs"
   },
   DKK: {
     symbol: "Dkr",
@@ -276,7 +282,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "DKK",
-    name_plural: "Danish kroner",
+    name_plural: "Danish kroner"
   },
   DOP: {
     symbol: "RD$",
@@ -285,7 +291,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "DOP",
-    name_plural: "Dominican pesos",
+    name_plural: "Dominican pesos"
   },
   DZD: {
     symbol: "DA",
@@ -294,7 +300,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "DZD",
-    name_plural: "Algerian dinars",
+    name_plural: "Algerian dinars"
   },
   EEK: {
     symbol: "Ekr",
@@ -303,7 +309,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "EEK",
-    name_plural: "Estonian kroons",
+    name_plural: "Estonian kroons"
   },
   EGP: {
     symbol: "EGP",
@@ -312,7 +318,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "EGP",
-    name_plural: "Egyptian pounds",
+    name_plural: "Egyptian pounds"
   },
   ERN: {
     symbol: "Nfk",
@@ -321,7 +327,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "ERN",
-    name_plural: "Eritrean nakfas",
+    name_plural: "Eritrean nakfas"
   },
   ETB: {
     symbol: "Br",
@@ -330,7 +336,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "ETB",
-    name_plural: "Ethiopian birrs",
+    name_plural: "Ethiopian birrs"
   },
   GBP: {
     symbol: "£",
@@ -339,7 +345,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "GBP",
-    name_plural: "British pounds sterling",
+    name_plural: "British pounds sterling"
   },
   GEL: {
     symbol: "GEL",
@@ -348,7 +354,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "GEL",
-    name_plural: "Georgian laris",
+    name_plural: "Georgian laris"
   },
   GHS: {
     symbol: "GH₵",
@@ -357,7 +363,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "GHS",
-    name_plural: "Ghanaian cedis",
+    name_plural: "Ghanaian cedis"
   },
   GNF: {
     symbol: "FG",
@@ -366,7 +372,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "GNF",
-    name_plural: "Guinean francs",
+    name_plural: "Guinean francs"
   },
   GTQ: {
     symbol: "GTQ",
@@ -375,7 +381,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "GTQ",
-    name_plural: "Guatemalan quetzals",
+    name_plural: "Guatemalan quetzals"
   },
   HKD: {
     symbol: "HK$",
@@ -385,6 +391,8 @@ export const dataCurrenciesObj = {
     rounding: 0,
     code: "HKD",
     name_plural: "Hong Kong dollars",
+    flag: "HKD",
+    country: "Hong Kong"
   },
   HNL: {
     symbol: "HNL",
@@ -393,7 +401,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "HNL",
-    name_plural: "Honduran lempiras",
+    name_plural: "Honduran lempiras"
   },
   HRK: {
     symbol: "kn",
@@ -402,7 +410,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "HRK",
-    name_plural: "Croatian kunas",
+    name_plural: "Croatian kunas"
   },
   HUF: {
     symbol: "Ft",
@@ -411,7 +419,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "HUF",
-    name_plural: "Hungarian forints",
+    name_plural: "Hungarian forints"
   },
   IDR: {
     symbol: "Rp",
@@ -420,7 +428,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "IDR",
-    name_plural: "Indonesian rupiahs",
+    name_plural: "Indonesian rupiahs"
   },
   ILS: {
     symbol: "₪",
@@ -429,7 +437,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "ILS",
-    name_plural: "Israeli new sheqels",
+    name_plural: "Israeli new sheqels"
   },
   INR: {
     symbol: "Rs",
@@ -438,7 +446,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "INR",
-    name_plural: "Indian rupees",
+    name_plural: "Indian rupees"
   },
   IQD: {
     symbol: "IQD",
@@ -447,7 +455,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "IQD",
-    name_plural: "Iraqi dinars",
+    name_plural: "Iraqi dinars"
   },
   IRR: {
     symbol: "IRR",
@@ -456,7 +464,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "IRR",
-    name_plural: "Iranian rials",
+    name_plural: "Iranian rials"
   },
   ISK: {
     symbol: "Ikr",
@@ -466,6 +474,8 @@ export const dataCurrenciesObj = {
     rounding: 0,
     code: "ISK",
     name_plural: "Icelandic krónur",
+    flag: "IS",
+    country: "Iceland"
   },
   JMD: {
     symbol: "J$",
@@ -474,7 +484,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "JMD",
-    name_plural: "Jamaican dollars",
+    name_plural: "Jamaican dollars"
   },
   JOD: {
     symbol: "JD",
@@ -483,7 +493,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 3,
     rounding: 0,
     code: "JOD",
-    name_plural: "Jordanian dinars",
+    name_plural: "Jordanian dinars"
   },
   JPY: {
     symbol: "¥",
@@ -492,7 +502,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "JPY",
-    name_plural: "Japanese yen",
+    name_plural: "Japanese yen"
   },
   KES: {
     symbol: "Ksh",
@@ -501,7 +511,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "KES",
-    name_plural: "Kenyan shillings",
+    name_plural: "Kenyan shillings"
   },
   KHR: {
     symbol: "KHR",
@@ -510,7 +520,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "KHR",
-    name_plural: "Cambodian riels",
+    name_plural: "Cambodian riels"
   },
   KMF: {
     symbol: "CF",
@@ -519,7 +529,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "KMF",
-    name_plural: "Comorian francs",
+    name_plural: "Comorian francs"
   },
   KRW: {
     symbol: "₩",
@@ -528,7 +538,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "KRW",
-    name_plural: "South Korean won",
+    name_plural: "South Korean won"
   },
   KWD: {
     symbol: "KD",
@@ -537,7 +547,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 3,
     rounding: 0,
     code: "KWD",
-    name_plural: "Kuwaiti dinars",
+    name_plural: "Kuwaiti dinars"
   },
   KZT: {
     symbol: "KZT",
@@ -546,7 +556,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "KZT",
-    name_plural: "Kazakhstani tenges",
+    name_plural: "Kazakhstani tenges"
   },
   LBP: {
     symbol: "LB£",
@@ -555,7 +565,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "LBP",
-    name_plural: "Lebanese pounds",
+    name_plural: "Lebanese pounds"
   },
   LKR: {
     symbol: "SLRs",
@@ -564,7 +574,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "LKR",
-    name_plural: "Sri Lankan rupees",
+    name_plural: "Sri Lankan rupees"
   },
   LTL: {
     symbol: "Lt",
@@ -573,7 +583,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "LTL",
-    name_plural: "Lithuanian litai",
+    name_plural: "Lithuanian litai"
   },
   LVL: {
     symbol: "Ls",
@@ -582,7 +592,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "LVL",
-    name_plural: "Latvian lati",
+    name_plural: "Latvian lati"
   },
   LYD: {
     symbol: "LD",
@@ -591,7 +601,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 3,
     rounding: 0,
     code: "LYD",
-    name_plural: "Libyan dinars",
+    name_plural: "Libyan dinars"
   },
   MAD: {
     symbol: "MAD",
@@ -600,7 +610,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "MAD",
-    name_plural: "Moroccan dirhams",
+    name_plural: "Moroccan dirhams"
   },
   MDL: {
     symbol: "MDL",
@@ -609,7 +619,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "MDL",
-    name_plural: "Moldovan lei",
+    name_plural: "Moldovan lei"
   },
   MGA: {
     symbol: "MGA",
@@ -618,7 +628,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "MGA",
-    name_plural: "Malagasy Ariaries",
+    name_plural: "Malagasy Ariaries"
   },
   MKD: {
     symbol: "MKD",
@@ -627,7 +637,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "MKD",
-    name_plural: "Macedonian denari",
+    name_plural: "Macedonian denari"
   },
   MMK: {
     symbol: "MMK",
@@ -636,7 +646,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "MMK",
-    name_plural: "Myanma kyats",
+    name_plural: "Myanma kyats"
   },
   MOP: {
     symbol: "MOP$",
@@ -645,7 +655,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "MOP",
-    name_plural: "Macanese patacas",
+    name_plural: "Macanese patacas"
   },
   MUR: {
     symbol: "MURs",
@@ -654,7 +664,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "MUR",
-    name_plural: "Mauritian rupees",
+    name_plural: "Mauritian rupees"
   },
   MXN: {
     symbol: "MX$",
@@ -663,7 +673,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "MXN",
-    name_plural: "Mexican pesos",
+    name_plural: "Mexican pesos"
   },
   MYR: {
     symbol: "RM",
@@ -672,7 +682,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "MYR",
-    name_plural: "Malaysian ringgits",
+    name_plural: "Malaysian ringgits"
   },
   MZN: {
     symbol: "MTn",
@@ -681,7 +691,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "MZN",
-    name_plural: "Mozambican meticals",
+    name_plural: "Mozambican meticals"
   },
   NAD: {
     symbol: "N$",
@@ -690,7 +700,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "NAD",
-    name_plural: "Namibian dollars",
+    name_plural: "Namibian dollars"
   },
   NGN: {
     symbol: "₦",
@@ -699,7 +709,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "NGN",
-    name_plural: "Nigerian nairas",
+    name_plural: "Nigerian nairas"
   },
   NIO: {
     symbol: "C$",
@@ -708,7 +718,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "NIO",
-    name_plural: "Nicaraguan córdobas",
+    name_plural: "Nicaraguan córdobas"
   },
   NOK: {
     symbol: "Nkr",
@@ -717,7 +727,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "NOK",
-    name_plural: "Norwegian kroner",
+    name_plural: "Norwegian kroner"
   },
   NPR: {
     symbol: "NPRs",
@@ -726,7 +736,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "NPR",
-    name_plural: "Nepalese rupees",
+    name_plural: "Nepalese rupees"
   },
   NZD: {
     symbol: "NZ$",
@@ -735,7 +745,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "NZD",
-    name_plural: "New Zealand dollars",
+    name_plural: "New Zealand dollars"
   },
   OMR: {
     symbol: "OMR",
@@ -744,7 +754,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 3,
     rounding: 0,
     code: "OMR",
-    name_plural: "Omani rials",
+    name_plural: "Omani rials"
   },
   PAB: {
     symbol: "B/.",
@@ -753,7 +763,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "PAB",
-    name_plural: "Panamanian balboas",
+    name_plural: "Panamanian balboas"
   },
   PEN: {
     symbol: "S/.",
@@ -762,7 +772,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "PEN",
-    name_plural: "Peruvian nuevos soles",
+    name_plural: "Peruvian nuevos soles"
   },
   PHP: {
     symbol: "₱",
@@ -771,7 +781,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "PHP",
-    name_plural: "Philippine pesos",
+    name_plural: "Philippine pesos"
   },
   PKR: {
     symbol: "PKRs",
@@ -780,7 +790,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "PKR",
-    name_plural: "Pakistani rupees",
+    name_plural: "Pakistani rupees"
   },
   PLN: {
     symbol: "zł",
@@ -789,7 +799,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "PLN",
-    name_plural: "Polish zlotys",
+    name_plural: "Polish zlotys"
   },
   PYG: {
     symbol: "₲",
@@ -798,7 +808,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "PYG",
-    name_plural: "Paraguayan guaranis",
+    name_plural: "Paraguayan guaranis"
   },
   QAR: {
     symbol: "QR",
@@ -807,7 +817,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "QAR",
-    name_plural: "Qatari rials",
+    name_plural: "Qatari rials"
   },
   RON: {
     symbol: "RON",
@@ -816,7 +826,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "RON",
-    name_plural: "Romanian lei",
+    name_plural: "Romanian lei"
   },
   RSD: {
     symbol: "din.",
@@ -825,7 +835,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "RSD",
-    name_plural: "Serbian dinars",
+    name_plural: "Serbian dinars"
   },
   RUB: {
     symbol: "RUB",
@@ -834,7 +844,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "RUB",
-    name_plural: "Russian rubles",
+    name_plural: "Russian rubles"
   },
   RWF: {
     symbol: "RWF",
@@ -843,7 +853,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "RWF",
-    name_plural: "Rwandan francs",
+    name_plural: "Rwandan francs"
   },
   SAR: {
     symbol: "SR",
@@ -852,7 +862,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "SAR",
-    name_plural: "Saudi riyals",
+    name_plural: "Saudi riyals"
   },
   SDG: {
     symbol: "SDG",
@@ -861,7 +871,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "SDG",
-    name_plural: "Sudanese pounds",
+    name_plural: "Sudanese pounds"
   },
   SEK: {
     symbol: "Skr",
@@ -870,7 +880,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "SEK",
-    name_plural: "Swedish kronor",
+    name_plural: "Swedish kronor"
   },
   SGD: {
     symbol: "S$",
@@ -879,7 +889,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "SGD",
-    name_plural: "Singapore dollars",
+    name_plural: "Singapore dollars"
   },
   SOS: {
     symbol: "Ssh",
@@ -888,7 +898,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "SOS",
-    name_plural: "Somali shillings",
+    name_plural: "Somali shillings"
   },
   SYP: {
     symbol: "SY£",
@@ -897,7 +907,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "SYP",
-    name_plural: "Syrian pounds",
+    name_plural: "Syrian pounds"
   },
   THB: {
     symbol: "฿",
@@ -906,7 +916,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "THB",
-    name_plural: "Thai baht",
+    name_plural: "Thai baht"
   },
   TND: {
     symbol: "DT",
@@ -915,7 +925,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 3,
     rounding: 0,
     code: "TND",
-    name_plural: "Tunisian dinars",
+    name_plural: "Tunisian dinars"
   },
   TOP: {
     symbol: "T$",
@@ -924,7 +934,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "TOP",
-    name_plural: "Tongan paʻanga",
+    name_plural: "Tongan paʻanga"
   },
   TRY: {
     symbol: "TL",
@@ -933,7 +943,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "TRY",
-    name_plural: "Turkish Lira",
+    name_plural: "Turkish Lira"
   },
   TTD: {
     symbol: "TT$",
@@ -942,7 +952,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "TTD",
-    name_plural: "Trinidad and Tobago dollars",
+    name_plural: "Trinidad and Tobago dollars"
   },
   TWD: {
     symbol: "NT$",
@@ -951,7 +961,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "TWD",
-    name_plural: "New Taiwan dollars",
+    name_plural: "New Taiwan dollars"
   },
   TZS: {
     symbol: "TSh",
@@ -960,7 +970,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "TZS",
-    name_plural: "Tanzanian shillings",
+    name_plural: "Tanzanian shillings"
   },
   UAH: {
     symbol: "₴",
@@ -969,7 +979,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "UAH",
-    name_plural: "Ukrainian hryvnias",
+    name_plural: "Ukrainian hryvnias"
   },
   UGX: {
     symbol: "USh",
@@ -978,7 +988,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "UGX",
-    name_plural: "Ugandan shillings",
+    name_plural: "Ugandan shillings"
   },
   UYU: {
     symbol: "$U",
@@ -987,7 +997,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "UYU",
-    name_plural: "Uruguayan pesos",
+    name_plural: "Uruguayan pesos"
   },
   UZS: {
     symbol: "UZS",
@@ -996,7 +1006,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "UZS",
-    name_plural: "Uzbekistan som",
+    name_plural: "Uzbekistan som"
   },
   VEF: {
     symbol: "Bs.F.",
@@ -1005,7 +1015,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "VEF",
-    name_plural: "Venezuelan bolívars",
+    name_plural: "Venezuelan bolívars"
   },
   VND: {
     symbol: "₫",
@@ -1014,7 +1024,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "VND",
-    name_plural: "Vietnamese dong",
+    name_plural: "Vietnamese dong"
   },
   XAF: {
     symbol: "FCFA",
@@ -1023,7 +1033,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "XAF",
-    name_plural: "CFA francs BEAC",
+    name_plural: "CFA francs BEAC"
   },
   XOF: {
     symbol: "CFA",
@@ -1032,7 +1042,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "XOF",
-    name_plural: "CFA francs BCEAO",
+    name_plural: "CFA francs BCEAO"
   },
   YER: {
     symbol: "YR",
@@ -1041,7 +1051,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "YER",
-    name_plural: "Yemeni rials",
+    name_plural: "Yemeni rials"
   },
   ZAR: {
     symbol: "R",
@@ -1050,7 +1060,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 2,
     rounding: 0,
     code: "ZAR",
-    name_plural: "South African rand",
+    name_plural: "South African rand"
   },
   ZMK: {
     symbol: "ZK",
@@ -1059,7 +1069,7 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "ZMK",
-    name_plural: "Zambian kwachas",
+    name_plural: "Zambian kwachas"
   },
   ZWL: {
     symbol: "ZWL$",
@@ -1068,8 +1078,8 @@ export const dataCurrenciesObj = {
     decimal_digits: 0,
     rounding: 0,
     code: "ZWL",
-    name_plural: "Zimbabwean Dollar",
-  },
+    name_plural: "Zimbabwean Dollar"
+  }
 };
 
 export const selectableCurrencies = [
@@ -1105,5 +1115,371 @@ export const selectableCurrencies = [
   "AUD",
   "ILS",
   "KRW",
-  "PLN",
+  "PLN"
+];
+
+export const currencies = [
+  {
+    symbol: "CA$",
+    name: "Canadian Dollar",
+    symbol_native: "$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "CAD",
+    name_plural: "Canadian dollars",
+    flag: "CA",
+    country: "CANADA"
+  },
+  {
+    symbol: "HK$",
+    name: "Hong Kong Dollar",
+    symbol_native: "$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "HKD",
+    name_plural: "Hong Kong dollars",
+    flag: "HK",
+    country: "HONG KONG"
+  },
+  {
+    symbol: "Ikr",
+    name: "Icelandic Króna",
+    symbol_native: "kr",
+    decimal_digits: 0,
+    rounding: 0,
+    code: "ISK",
+    name_plural: "Icelandic krónur",
+    flag: "IS",
+    country: "ICELAND"
+  },
+  {
+    symbol: "₱",
+    name: "Philippine Peso",
+    symbol_native: "₱",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "PHP",
+    name_plural: "Philippine pesos",
+    flag: "PH",
+    country: "PHILIPPINES (THE)"
+  },
+  {
+    symbol: "Dkr",
+    name: "Danish Krone",
+    symbol_native: "kr",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "DKK",
+    name_plural: "Danish kroner",
+    country: "DENMARK",
+    flag: "DK"
+  },
+  {
+    symbol: "Ft",
+    name: "Hungarian Forint",
+    symbol_native: "Ft",
+    decimal_digits: 0,
+    rounding: 0,
+    code: "HUF",
+    name_plural: "Hungarian forints",
+    country: "HUNGARY",
+    flag: "HU"
+  },
+  {
+    symbol: "Kč",
+    name: "Czech Republic Koruna",
+    symbol_native: "Kč",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "CZK",
+    name_plural: "Czech Republic korunas",
+    country: "CZECH REPUBLIC (THE)",
+    flag: "CZ"
+  },
+  {
+    symbol: "£",
+    name: "British Pound Sterling",
+    symbol_native: "£",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "GBP",
+    name_plural: "British pounds sterling",
+    country: "GUERNSEY",
+    flag: "GB"
+  },
+  {
+    symbol: "RON",
+    name: "Romanian Leu",
+    symbol_native: "RON",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "RON",
+    name_plural: "Romanian lei",
+    country: "ROMANIA",
+    flag: "RO"
+  },
+  {
+    symbol: "Skr",
+    name: "Swedish Krona",
+    symbol_native: "kr",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "SEK",
+    name_plural: "Swedish kronor",
+    country: "SWEDEN",
+    flag: "SE"
+  },
+  {
+    symbol: "Rp",
+    name: "Indonesian Rupiah",
+    symbol_native: "Rp",
+    decimal_digits: 0,
+    rounding: 0,
+    code: "IDR",
+    name_plural: "Indonesian rupiahs",
+    country: "INDONESIA",
+    flag: "ID"
+  },
+  {
+    symbol: "Rs",
+    name: "Indian Rupee",
+    symbol_native: "টকা",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "INR",
+    name_plural: "Indian rupees",
+    country: "BHUTAN",
+    flag: "IN"
+  },
+  {
+    symbol: "R$",
+    name: "Brazilian Real",
+    symbol_native: "R$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "BRL",
+    name_plural: "Brazilian reals",
+    country: "BRAZIL",
+    flag: "BR"
+  },
+  {
+    symbol: "RUB",
+    name: "Russian Ruble",
+    symbol_native: "₽.",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "RUB",
+    name_plural: "Russian rubles",
+    country: "RUSSIAN FEDERATION (THE)",
+    flag: "RU"
+  },
+  {
+    symbol: "kn",
+    name: "Croatian Kuna",
+    symbol_native: "kn",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "HRK",
+    name_plural: "Croatian kunas",
+    country: "CROATIA",
+    flag: "HR"
+  },
+  {
+    symbol: "¥",
+    name: "Japanese Yen",
+    symbol_native: "￥",
+    decimal_digits: 0,
+    rounding: 0,
+    code: "JPY",
+    name_plural: "Japanese yen",
+    country: "JAPAN",
+    flag: "JP"
+  },
+  {
+    symbol: "฿",
+    name: "Thai Baht",
+    symbol_native: "฿",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "THB",
+    name_plural: "Thai baht",
+    country: "THAILAND",
+    flag: "TH"
+  },
+  {
+    symbol: "CHF",
+    name: "Swiss Franc",
+    symbol_native: "CHF",
+    decimal_digits: 2,
+    rounding: 0.05,
+    code: "CHF",
+    name_plural: "Swiss francs",
+    country: "LIECHTENSTEIN",
+    flag: "LI"
+  },
+  {
+    symbol: "€",
+    name: "Euro",
+    symbol_native: "€",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "EUR",
+    name_plural: "euros",
+    flag: "EU",
+    country: "European Union"
+  },
+  {
+    symbol: "RM",
+    name: "Malaysian Ringgit",
+    symbol_native: "RM",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "MYR",
+    name_plural: "Malaysian ringgits",
+    country: "MALAYSIA",
+    flag: "MY"
+  },
+  {
+    symbol: "BGN",
+    name: "Bulgarian Lev",
+    symbol_native: "лв.",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "BGN",
+    name_plural: "Bulgarian leva",
+    country: "BULGARIA",
+    flag: "BG"
+  },
+  {
+    symbol: "TL",
+    name: "Turkish Lira",
+    symbol_native: "TL",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "TRY",
+    name_plural: "Turkish Lira",
+    country: "TURKEY",
+    flag: "TR"
+  },
+  {
+    symbol: "CN¥",
+    name: "Chinese Yuan",
+    symbol_native: "CN¥",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "CNY",
+    name_plural: "Chinese yuan",
+    country: "CHINA",
+    flag: "CN"
+  },
+  {
+    symbol: "Nkr",
+    name: "Norwegian Krone",
+    symbol_native: "kr",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "NOK",
+    name_plural: "Norwegian kroner",
+    country: "BOUVET ISLAND",
+    flag: "BV"
+  },
+  {
+    symbol: "NZ$",
+    name: "New Zealand Dollar",
+    symbol_native: "$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "NZD",
+    name_plural: "New Zealand dollars",
+    country: "NEW ZEALAND",
+    flag: "NZ"
+  },
+  {
+    symbol: "R",
+    name: "South African Rand",
+    symbol_native: "R",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "ZAR",
+    name_plural: "South African rand",
+    country: "LESOTHO",
+    flag: "LS"
+  },
+  {
+    symbol: "$",
+    name: "US Dollar",
+    symbol_native: "$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "USD",
+    name_plural: "US dollars",
+    flag: "US",
+    country: "United States"
+  },
+  {
+    symbol: "MX$",
+    name: "Mexican Peso",
+    symbol_native: "$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "MXN",
+    name_plural: "Mexican pesos",
+    country: "MEXICO",
+    flag: "MX"
+  },
+  {
+    symbol: "S$",
+    name: "Singapore Dollar",
+    symbol_native: "$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "SGD",
+    name_plural: "Singapore dollars",
+    country: "SINGAPORE",
+    flag: "SG"
+  },
+  {
+    symbol: "AU$",
+    name: "Australian Dollar",
+    symbol_native: "$",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "AUD",
+    name_plural: "Australian dollars",
+    country: "AUSTRALIA",
+    flag: "AU"
+  },
+  {
+    symbol: "₪",
+    name: "Israeli New Sheqel",
+    symbol_native: "₪",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "ILS",
+    name_plural: "Israeli new sheqels",
+    country: "ISRAEL",
+    flag: "IL"
+  },
+  {
+    symbol: "₩",
+    name: "South Korean Won",
+    symbol_native: "₩",
+    decimal_digits: 0,
+    rounding: 0,
+    code: "KRW",
+    name_plural: "South Korean won",
+    country: "KOREA (THE REPUBLIC OF)",
+    flag: "KR"
+  },
+  {
+    symbol: "zł",
+    name: "Polish Zloty",
+    symbol_native: "zł",
+    decimal_digits: 2,
+    rounding: 0,
+    code: "PLN",
+    name_plural: "Polish zlotys",
+    country: "POLAND",
+    flag: "PL"
+  }
 ];

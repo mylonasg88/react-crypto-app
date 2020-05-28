@@ -4,11 +4,12 @@ import ConvertorFromTo from "./ConvertFromTo/ConvertorFromTo";
 
 import {
   dataCurrenciesObj,
-  selectableCurrencies,
+  selectableCurrencies
 } from "../utils/dataCurrencies";
 import { getCurrencies } from "../api/conversion";
 
 import styles from "./Convertor.scss";
+import { Box, TextField } from "@material-ui/core";
 
 export default class Convertor extends React.Component {
   constructor(props) {
@@ -18,10 +19,10 @@ export default class Convertor extends React.Component {
       currencies: dataCurrenciesObj,
       userCurrencies: {
         USD: dataCurrenciesObj.USD,
-        GBP: dataCurrenciesObj.GBP,
+        GBP: dataCurrenciesObj.GBP
       },
       selectedCode: "USD",
-      selectedValue: 0,
+      selectedValue: 0
     };
   }
 
@@ -36,7 +37,7 @@ export default class Convertor extends React.Component {
     this.setState({ userCurrencies: userCurrs });
   }
 
-  updateInput = (e) => {
+  updateInput = e => {
     const selectedCode = e.target.name;
     const selectedValue = e.target.value;
     console.log("Converting currency code " + selectedCode);
@@ -60,7 +61,7 @@ export default class Convertor extends React.Component {
     // this.convertCurrency(selectedCode);
   };
 
-  convertCurrency = async (selectedCode) => {
+  convertCurrency = async selectedCode => {
     const rates = await getCurrencies(selectedCode);
     if (!rates) {
       console.log("Error happened");
@@ -100,54 +101,63 @@ export default class Convertor extends React.Component {
     let keys = Object.keys(dataCurrenciesObj);
     let userKeys = Object.keys(this.state.userCurrencies);
 
-    console.log('Convertor');
-
     return (
-      <div className="Convertor">
-        <h2>Convertor</h2>
-        <div>
-          <span>Apis are from</span>
-          <br />
-          <ol style={{ textAlign: "left", width: "400px", margin: "0 auto" }}>
-            <li>
-              <a href="https://exchangeratesapi.io/">
-                https://exchangeratesapi.io/
-              </a>
-            </li>
-            <li>
-              <a href="https://www.iban.com/currency-codes">
-                https://www.iban.com/currency-codes
-              </a>
-            </li>
-          </ol>
-          <br />
+      <Box>
+        <div className='Convertor'>
+          <h2>Convertor</h2>
+          <div>
+            <span>Apis are from</span>
+            <br />
+            <ol style={{ textAlign: "left", width: "400px", margin: "0 auto" }}>
+              <li>
+                <a href='https://exchangeratesapi.io/'>
+                  https://exchangeratesapi.io/
+                </a>
+              </li>
+              <li>
+                <a href='https://www.iban.com/currency-codes'>
+                  https://www.iban.com/currency-codes
+                </a>
+              </li>
+              <li>
+                <a href='https://www.countryflags.io/'>
+                  https://www.countryflags.io/
+                </a>
+                <img
+                  src='https://www.countryflags.io/GR/shiny/64.png'
+                  width={24}
+                />
+              </li>
+            </ol>
+            <br />
+          </div>
+
+          <div>
+            <h3>Selected Currencies</h3>
+            <ul style={{ textAlign: "left", width: "400px", margin: "0 auto" }}>
+              {userKeys.map((currencyCode, i) => {
+                return this.inputCurrency(currencyCode);
+              })}
+            </ul>
+            <button
+              onClick={() => {
+                console.log("Selected code: " + this.state.selectedCode);
+                this.convertCurrency(this.state.selectedCode);
+              }}
+            >
+              Convert
+            </button>
+          </div>
+
+          <ConvertorFromTo />
+
+          <div className='footer' />
         </div>
-
-        <div>
-          <h3>Selected Currencies</h3>
-          <ul style={{ textAlign: "left", width: "400px", margin: "0 auto" }}>
-            {userKeys.map((currencyCode, i) => {
-              return this.inputCurrency(currencyCode);
-            })}
-          </ul>
-          <button
-            onClick={() => {
-              console.log("Selected code: " + this.state.selectedCode);
-              this.convertCurrency(this.state.selectedCode);
-            }}
-          >
-            Convert
-          </button>
-        </div>
-
-        <ConvertorFromTo />
-
-        <div className="footer" />
-      </div>
+      </Box>
     );
   }
 
-  inputCurrency = (currencyCode) => {
+  inputCurrency = currencyCode => {
     const curr = this.state.currencies[currencyCode];
     return (
       <li
@@ -159,10 +169,16 @@ export default class Convertor extends React.Component {
       >
         <span>{curr.code}</span>
         <input
-          type="number"
+          type='number'
           value={curr.value}
           name={curr.code}
           onChange={this.updateInput}
+        />
+        <TextField
+          disabled
+          id={"h"}
+          label='Disabled'
+          defaultValue='Hello World'
         />
       </li>
     );
