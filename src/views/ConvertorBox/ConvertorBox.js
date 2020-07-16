@@ -20,18 +20,15 @@ import {
 
 // import CurrencyList from "../../components/CurrencyList/CurrencyList";
 import CurrencyList from "../../components/CurrencyList/CurrencyList";
-import MyComp from "../../components/MyComp";
+import SelectedCurrenciesList from "../SelectedCurrencies/SelectedCurrencies";
+
 import { selectableCurrencies } from "../../utils/dataCurrencies";
 import { getCurrencies } from "../../api/conversion";
-import {
-  convertSelectedCurrency,
-  saveUserCurrencies,
-  readUserCurrencies
-} from "../../utils/tools";
+import { saveUserCurrencies, readUserCurrencies } from "../../utils/tools";
 
-const classes = require("./ConvertFromTo.scss");
+const classes = require("./ConvertorBox.scss");
 
-export default class ConvertorFromTo extends React.Component {
+export default class ConvertorBox extends React.Component {
   constructor(props) {
     super(props);
 
@@ -64,8 +61,6 @@ export default class ConvertorFromTo extends React.Component {
 
     if (this.state.convertValue === 0) return null;
 
-    console.log(rates);
-    console.log(`from = ${from}, to = ${to}`);
     const convertedValue = (rates.rates[to] * this.state.convertValue).toFixed(
       3
     );
@@ -95,15 +90,14 @@ export default class ConvertorFromTo extends React.Component {
     this.setState({ currencySelected: e.target.value });
   };
 
-  addCurrency = e => {
-    let selectedCurrencies = this.state.selectedCurrencies;
-    selectedCurrencies.push(this.state.currencySelected);
-    this.setState({ selectedCurrencies });
-    console.log(this.state.selectedCurrencies);
-  };
+  // addCurrency = e => {
+  //   let selectedCurrencies = this.state.selectedCurrencies;
+  //   selectedCurrencies.push(this.state.currencySelected);
+  //   this.setState({ selectedCurrencies });
+  //   console.log(this.state.selectedCurrencies);
+  // };
 
   addCurrencyFromList = (event, currency) => {
-    console.log(currency);
     const selectedCurrencies = this.state.selectedCurrencies;
     selectedCurrencies.push(currency);
 
@@ -117,27 +111,20 @@ export default class ConvertorFromTo extends React.Component {
   };
 
   render() {
+    console.log("selected currency " + this.state.currencySelected);
     return (
       <div className='convertorFromTo'>
         <h3>Convertor Box</h3>
         <div className='inputs'>
           <div className='inline convertValue'>
             <div className='selector'>
-              <h4>From</h4>
-              <select onChange={this.onChangeFrom}>
-                {selectableCurrencies.map((key, i) => (
-                  <option key={i} value={key}>
-                    {key}
-                  </option>
-                ))}
-              </select>
-              {/* <FormControl variant='outlined'>
+              <FormControl variant='outlined' style={{ width: "110px" }}>
                 <InputLabel htmlFor='outlined-age-native-simple'>
                   Currency
                 </InputLabel>
                 <Select
                   native
-                  value={this.state.currencySelected}
+                  // value={this.state.currencySelected}
                   onChange={this.onChangeFrom}
                   label='Currency'
                 >
@@ -148,16 +135,17 @@ export default class ConvertorFromTo extends React.Component {
                     </option>
                   ))}
                 </Select>
-              </FormControl> */}
+              </FormControl>
+              <TextField
+                id='standard-basic'
+                label='Value'
+                ref={this.inputRef}
+                type='number'
+                onChange={this.typeValue}
+                value={this.state.convertValue}
+                // style={{ textAlign: "end", width: "100px" }}
+              />
             </div>
-            <label for='inputValue'>Add value</label>
-            <input
-              name='inputValue'
-              type='number'
-              value={this.state.convertValue}
-              onChange={this.typeValue}
-              ref={this.inputRef}
-            />
           </div>
         </div>
 
@@ -174,25 +162,14 @@ export default class ConvertorFromTo extends React.Component {
           </Button>
         </div>
 
-        <div className='addCurrency'>
-          {/* <FormControl variant='outlined'>
-            <InputLabel htmlFor='outlined-age-native-simple'>
-              Currency
-            </InputLabel>
-            <Select
-              native
-              value={this.state.currencySelected}
-              onChange={this.onChangeAddCurrency}
-              label='Currency'
-            >
-              <option aria-label='None' value='' />
-              {selectableCurrencies.map((key, i) => (
-                <option key={i} value={key}>
-                  {key}
-                </option>
-              ))}
-            </Select>
-          </FormControl> */}
+        <SelectedCurrenciesList
+          show={this.state.isCurrenciesDisplayed}
+          currencies={this.state.selectedCurrencies}
+          rates={this.state.rates}
+          convertValue={this.state.convertValue}
+        />
+
+        {!this.state.isCurrenciesDisplayed && (
           <Button
             variant='contained'
             color='primary'
@@ -203,14 +180,7 @@ export default class ConvertorFromTo extends React.Component {
           >
             Add Currency
           </Button>
-        </div>
-
-        <SelectedCurrenciesList
-          show={this.state.isCurrenciesDisplayed}
-          currencies={this.state.selectedCurrencies}
-          rates={this.state.rates}
-          convertValue={this.state.convertValue}
-        />
+        )}
 
         {this.state.isCurrenciesDisplayed && (
           <CurrencyList
@@ -222,51 +192,3 @@ export default class ConvertorFromTo extends React.Component {
     );
   }
 }
-
-const SelectedCurrenciesList = props => {
-  const { currencies, rates, convertValue } = props;
-  console.log(currencies);
-  return (
-    <div className={"convertToList"}>
-      <h3>SelectedCurrenciesList</h3>
-      {/* <Button
-        variant='contained'
-        color='primary'
-        size='small'
-        className={"button"}
-        startIcon={<AddIcon />}
-        onClick={() => {}}
-      >
-        Add Currency
-      </Button> */}
-      <List>
-        {currencies.map((currency, key) => {
-          console.log(currency);
-          return (
-            <ListItem key={key}>
-              <ListItemAvatar>
-                <img
-                  src={`https://www.countryflags.io/${currency.flag}/flat/64.png`}
-                  width={48}
-                />
-              </ListItemAvatar>
-              <ListItemText primary={currency.name} secondary={currency.code} />
-              <TextField
-                disabled
-                className={classes.currencyResultTxt}
-                id={key}
-                label=''
-                variant='outlined'
-                value={convertSelectedCurrency(
-                  currency.code,
-                  rates,
-                  convertValue
-                )}
-              />
-            </ListItem>
-          );
-        })}
-      </List>
-    </div>
-  );
-};

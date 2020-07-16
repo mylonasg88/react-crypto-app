@@ -6,13 +6,15 @@
  * @returns {string|null}
  */
 export const convertSelectedCurrency = (to, rates, convertValue) => {
-  console.log(rates);
+  // console.log(rates);
   if (!rates) return 0;
   // debugger;
-  console.log("NOT NULL");
-  console.log(to);
-  console.log(convertValue, rates[to]);
+  // console.log("to: " + to);
+  // console.log("convertValue: " + convertValue, "to: " + rates[to]);
 
+  // console.log(
+  //   `Convert ${rates[to].toFixed(3)} to ${to} amount of ${convertValue}`
+  // );
   return (convertValue * rates[to]).toFixed(3);
 };
 

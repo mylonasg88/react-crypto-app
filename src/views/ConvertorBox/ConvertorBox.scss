@@ -4,6 +4,12 @@
   margin: 0 auto;
   margin-top: 20px;
   border: 1px solid #ccc;
+
+  .MuiListItem-gutters {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .convertValue {
     label {
       margin: 0 5px;
@@ -15,11 +21,14 @@
 
   .convertedValue {
     margin-left: 10px;
+    width: 100px;
   }
 
   .selector {
-    width: 100px;
-    display: inline-block;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   .convertSubmit {
@@ -29,12 +38,23 @@
   .button {
     margin: 7px;
   }
+
+  #standard-basic {
+    text-align: end;
+    width: 100px;
+  }
 }
 
 .inline {
   display: inline-block;
 }
 
+.currencyName {
+  max-width: 130px;
+}
+
 .currencyResultTxt {
-  width: "100px";
+  // width: 100px;
+
+  max-width: 180px;
 }
